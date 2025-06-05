@@ -11,7 +11,7 @@ public class LoginFeature {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("=== Login System ===");
+        System.out.println("[<] Login System [>]");
 
         int attempts = 0;
         while (attempts < MAX_ATTEMPTS) {
